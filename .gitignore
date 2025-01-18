@@ -1,0 +1,27 @@
+# Python-specific ignores
+__pycache__/           # Компільовані файли Python
+*.pyc                  # Компільовані файли Python
+*.pyo                  # Оптимізовані файли Python
+*.pyd                  # Динамічні бібліотеки Python
+
+# Virtual environments
+env/                   # Папка з віртуальним середовищем
+venv/                  # Інший варіант назви
+*.env                  # Файли середовища (наприклад, .env)
+
+# Logs and temporary files
+*.log                  # Лог-файли
+*.csv                  # CSV-файли (залежить від ваших потреб)
+*.tmp                  # Тимчасові файли
+*.bak                  # Резервні файли
+.DS_Store              # macOS файли
+Thumbs.db              # Windows файли
+
+# IDE and editor-specific ignores
+.vscode/               # Налаштування VS Code
+.idea/                 # Налаштування PyCharm
+*.sublime-project
+*.sublime-workspace
+
+# System-specific ignores
+*.swp                  # Файли swap (Vim)
